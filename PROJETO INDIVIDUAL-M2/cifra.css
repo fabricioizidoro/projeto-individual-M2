@@ -1,0 +1,126 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+    width:100vh;
+    background: rgb(143,214,148);
+    background: linear-gradient(90deg, rgba(143,214,148,1) 14%, rgba(125,186,132,1) 46%, rgba(119,173,120,1) 79%);
+    font-family: sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+
+header {
+    display:flex;
+    align-items: center;
+}
+
+#titulo {
+    
+    margin-left:auto;
+    margin-right:auto;
+    font-size: 40px;
+    color: #504b43;
+    margin-top: 150px;
+}
+
+form {
+    box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.5);
+    background-color: #6f8f72;
+    border-radius: 50px;
+    height: 500px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#opçoes {
+    width: 250px;
+    height: 50px;
+    background-color: white;
+    color: #504b43;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+
+#entradaMensagem {
+    box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.5);
+    width: 350px;
+    height: 80px;
+    background-color: white;
+    color: #504b43;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-top: 102px;
+}
+
+#incremento {
+    box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.5);
+    display:none;
+    margin-top: 20px;
+    width: 200px;
+    height: 30px;
+    background-color: white;
+    color: #504b43;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+#submit {
+    display:none;
+    color: #504b43;
+    font-weight: bold;
+    background-color: white;
+    font-size: 20px;
+
+}
+
+#labelcodificar {
+    margin-top: 20px;
+    width: 200px;
+    height: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+
+
+#labeldecodificar {
+    margin-top: 20px;
+    width: 200px;
+    height: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+
+}
+
+.saidaMensagem {
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+footer {
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #504b43;
+    margin-top: 30px;
+}
